@@ -16,7 +16,7 @@ p { line-height: 1.6; }
 
 .h1, .sublogo, .btn-wrap a, .btn-wrap a i, .courses .c-cont .tab-head .h-item, .ask .ask-cont .c-item .i-q em { display: inline-block; *zoom: 1; *display: inline; }
 
-body { font-size: 16px; }
+body { font-size: 16px; background-color: #fff !important; }
 
 .wrap { width: 1200px; margin: 0 auto; }
 
@@ -90,12 +90,12 @@ body { font-size: 16px; }
 .subtitle { margin-bottom: 60px; color: #666666; text-align: center; }
 
 .strength { padding: 80px 0; height: 680px; background: url(../images/bg_5.jpg) no-repeat; }
-.strength .tab-head { float: left; width: 280px; margin-right: 40px; }
-.strength .tab-head .h-item { padding-left: 35px; height: 56px; line-height: 56px; margin-bottom: 30px; background: url(../images/c-nor.png) no-repeat 26px 18px #fafafa; border: solid 1px #dddddd; background-color: #fafafa; cursor: pointer; }
-.strength .tab-head .h-item span { margin-right: 6px; font-size: 30px; font-weight: bold; font-style: italic; color: #970041; vertical-align: bottom; }
-.strength .tab-head .h-item.on { background: url(../images/c-sel.png) no-repeat 26px 18px #970041; border: solid 1px #970041; color: #fff; position: relative; }
-.strength .tab-head .h-item.on::after { position: absolute; right: -22px; top: 0; bottom: 0; margin: auto; content: ""; width: 0; height: 0; border-width: 11px; border-style: solid; border-color: transparent transparent transparent #970041; }
-.strength .tab-head .h-item.on span { color: #fff; }
+.strength .s-head { float: left; width: 280px; margin-right: 40px; }
+.strength .s-head .h-item { padding-left: 35px; height: 56px; line-height: 56px; margin-bottom: 30px; background: url(../images/c-nor.png) no-repeat 26px 18px #fafafa; border: solid 1px #dddddd; background-color: #fafafa; cursor: pointer; }
+.strength .s-head .h-item span { margin-right: 6px; font-size: 30px; font-weight: bold; font-style: italic; color: #970041; vertical-align: bottom; }
+.strength .s-head .h-item.on { background: url(../images/c-sel.png) no-repeat 26px 18px #970041; border: solid 1px #970041; color: #fff; position: relative; }
+.strength .s-head .h-item.on::after { position: absolute; right: -22px; top: 0; bottom: 0; margin: auto; content: ""; width: 0; height: 0; border-width: 11px; border-style: solid; border-color: transparent transparent transparent #970041; }
+.strength .s-head .h-item.on span { color: #fff; }
 .strength .c-item { display: none; float: left; width: 877px; height: 492px; }
 .strength .c-item.on { display: block; }
 
@@ -104,6 +104,10 @@ body { font-size: 16px; }
 .apply .sign-in input { width: 250px; height: 44px; line-height: 44px; margin-left: 4px; text-indent: 1em; background-color: #ffffff; }
 .apply .sign-in input[type="submit"] { text-indent: 0; background-color: #ee931b; border-radius: 22px; color: #fff; }
 
+.result { padding-top: 80px; }
+.result .result-select { text-align: center; }
+.result .gallery_container { margin-bottom: 34px; }
+
 .process .p-cont { margin-right: -74px; background: url(../images/p.png) no-repeat; }
 .process .p-cont .c-item { float: left; width: 106px; padding-top: 166px; height: 40px; line-height: 40px; margin-right: 76px; font-size: 18px; font-weight: bold; text-align: center; }
 .process .p-cont .c-item:nth-child(even) { padding-top: 106px; }
@@ -111,6 +115,7 @@ body { font-size: 16px; }
 .graduate .g-cont { margin-right: -20px; }
 .graduate .g-cont img { float: left; margin: 0 20px 20px 0; }
 
+.campus { padding: 60px 0; }
 .campus .c-item { display: none; float: left; width: 980; height: 552px; margin-right: 20px; }
 .campus .c-item.on { display: block; }
 .campus .tab-head { float: left; width: 200px; }
@@ -119,6 +124,7 @@ body { font-size: 16px; }
 .campus .tab-head .h-item span { position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; z-index: 110; line-height: 123px; background: url(../images/mask.png); font-size: 20px; color: #fff; text-align: center; }
 .campus .tab-head .h-item.on span { display: none; }
 
+.ask { padding-top: 80px; }
 .ask .ask-cont { margin-right: -40px; }
 .ask .ask-cont .c-item { float: left; width: 580px; margin: 0 40px 30px 0; }
 .ask .ask-cont .c-item .i-q { margin-bottom: 20px; font-weight: bold; }
